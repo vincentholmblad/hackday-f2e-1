@@ -4,7 +4,7 @@
 yarn --cwd /var/www/html/ install
 yarn --cwd /var/www/html/ build
 
-pm2 start yarn --cwd /var/www/html/ start
+pm2 start yarn --name "nuxt" --interpreter bash -- start
 
 
 
