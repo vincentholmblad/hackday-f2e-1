@@ -1,9 +1,9 @@
 #!/bin/bash
 #service httpd start
 
-yarn --cwd ./app  install
-yarn --cwd ./app  generate
-yarn --cwd ./app  start
+yarn --cwd ~/var/www/html/  install
+yarn --cwd ~/var/www/html/  generate
+yarn --cwd ~/var/www/html/  start
 
 
 
