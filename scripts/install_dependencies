@@ -1,2 +1,7 @@
 #!/bin/bash
-yum install -y node yarn
+
+yum update
+yum install epel-release
+yum install nodejs
+sudo npm install yarn -g
+#yum install -y node yarn
