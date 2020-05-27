@@ -2,7 +2,7 @@
 #service httpd start
 
 yarn --cwd /var/www/html/  install
-yarn --cwd /var/www/html/  generate
+yarn --cwd /var/www/html/  build
 yarn --cwd /var/www/html/  start
 
 
