@@ -1,3 +1,9 @@
 #!/bin/bash
-service httpd start
+#service httpd start
+
+yarn --cwd ./app  install
+yarn --cwd ./app  generate
+yarn --cwd ./app  start
+
+
 
