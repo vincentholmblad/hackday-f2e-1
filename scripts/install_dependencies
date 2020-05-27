@@ -1,7 +1,8 @@
 #!/bin/bash
 
-yum update
-yum install epel-release
-yum install nodejs
+sudo yum update
+
+sudo curl --silent --location https://rpm.nodesource.com/setup_12.x | bash -
+sudo yum -y install nodejs
+
 sudo npm install yarn -g
-#yum install -y node yarn
