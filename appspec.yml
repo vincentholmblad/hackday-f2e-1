@@ -4,7 +4,7 @@ files:
   - source: /app
     destination: /var/www/html/
 hooks:
-  BeforeInstall:
+  ApplicationStart:
     - location: scripts/install_dependencies
       timeout: 300
       runas: root
